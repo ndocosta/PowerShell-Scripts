@@ -2,10 +2,10 @@
 #SharePoint Sites.Read.All (Application Permission)
 
 #Parameters
-$SharePointOnlineAdminUrl = "https://m365x043024-admin.sharepoint.com"
-$clientID = "9681712e-201b-419a-a788-ef1ff68084b9"
-$certThumbprint = "EA4232F82903E9CB5591EA7597389DF9EE0BF000"
-$tenant = "m365x043024.onmicrosoft.com"
+$SharePointOnlineAdminUrl = "https://<tenant>-admin.sharepoint.com"
+$clientID = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+$certThumbprint = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+$tenant = "<tenant>.onmicrosoft.com"
 $FileExtensionToSearch = "exe"
 $CSVFile = "C:\Temp\SharePoint_Files_" + $FileExtensionToSearch + ".csv"
 
